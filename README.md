@@ -1,1 +1,3 @@
 # VLC-lua-seek
+Install
+
