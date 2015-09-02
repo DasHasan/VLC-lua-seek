@@ -8,7 +8,7 @@ function activate()
 	print("Seek started")
 	dlg = vlc.dialog("Seeker")
 	for i=0,100,5 do
-		dlg:add_button(i.."%", function() seek(i) end, i, 1, 1, 1)
+		dlg:add_button(i.."%", function() seek(i) end, 1, i, 1, 1)
 	end
 end
 
